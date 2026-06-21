@@ -1,4 +1,4 @@
-# Diagrama de Entidade Relacionamento (DER) - Barbearia Prime
+# Diagrama de Entidade Relacionamento (DER) - Barbearia Prime - Feito com auxílio de IA para entrega de sprint
 
 Este documento apresenta o Diagrama de Entidade Relacionamento (DER) do banco de dados da **Barbearia Prime**, mapeado a partir do script SQL físico em [bd-MySQL-barbearia.sql](file:///c:/Users/Usuario/Downloads/barbearia/database/bd-MySQL-barbearia.sql).
 
