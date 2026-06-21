@@ -1,0 +1,52 @@
+body {
+    background-color: #f7f4ef;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.hero {
+    background:
+        linear-gradient(120deg, rgba(20, 20, 20, 0.92), rgba(20, 20, 20, 0.72)),
+        url('../imgs/barb-alt.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.logo-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1.25rem;
+    padding: 0.5rem;
+    backdrop-filter: blur(4px);
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.logo-principal {
+    display: block;
+    width: 100%;
+    max-width: 680px;
+    filter: drop-shadow(0 1rem 1.5rem rgba(0, 0, 0, 0.25));
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.btn {
+    border-radius: 999px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 0.75rem;
+}
+
+.table-responsive {
+    background-color: #fff;
+}

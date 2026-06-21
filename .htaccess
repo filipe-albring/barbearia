@@ -1,0 +1,2 @@
+# Impedir a listagem de arquivos e subdiretórios no Apache (XAMPP)
+Options -Indexes

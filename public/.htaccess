@@ -1,0 +1,2 @@
+# Impedir a listagem de arquivos e subdiretórios no diretório público do Apache
+Options -Indexes
