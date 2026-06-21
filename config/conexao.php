@@ -2,8 +2,8 @@
 
 function conectarBanco(): mysqli
 {
-    // Para desenvolvimento local no XAMPP, utilize 'localhost'.
-    // Para o ambiente de produção/MV, altere para o IP Fixo da máquina do banco de dados (ex: '192.168.56.102').
+    // Esse arquivo considera o desenvolvimento local no XAMPP, utilizando 'localhost'.
+    // Para o ambiente de produção (Máquina Virtual), altere para o IP Fixo da máquina do banco de dados (Por exemplo: 192.168.56.102).
     $servidor = 'localhost';
     $usuario = 'root';
     $senha = '';

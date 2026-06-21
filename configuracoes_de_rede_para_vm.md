@@ -1,3 +1,6 @@
+# Esse guia foi feito com o auxílio de inteligência artificial para um melhor entendimento do projeto e de como escalar ele para o ambiente em que será apresentado.
+
+
 # Configurações de Redes e Sistemas Operacionais - Projeto Acadêmico
 
 Este guia descreve o passo a passo para configurar o ambiente de infraestrutura de Redes e Sistemas Operacionais exigido na rubrica de avaliação do projeto **Barbearia Prime**.
