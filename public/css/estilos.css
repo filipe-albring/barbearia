@@ -50,3 +50,76 @@ main {
 .table-responsive {
     background-color: #fff;
 }
+
+.dashboard-cabecalho {
+    background:
+        linear-gradient(120deg, rgba(20, 20, 20, 0.97), rgba(48, 37, 20, 0.88)),
+        url('../imgs/barb-alt.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 1.25rem;
+}
+
+.dashboard-filtros {
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.18);
+}
+
+.dashboard-card {
+    border-radius: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 0.85rem 1.8rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.dashboard-valor {
+    color: #222;
+    font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.dashboard-icone {
+    align-items: center;
+    border-radius: 50%;
+    display: inline-flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+    height: 2.75rem;
+    justify-content: center;
+    width: 2.75rem;
+}
+
+.dashboard-ranking-nome {
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dashboard-page .progress {
+    background-color: #eee9df;
+    border-radius: 999px;
+    height: 0.65rem;
+}
+
+.dashboard-page .progress-bar {
+    background-color: #212529;
+}
+
+.dashboard-vazio {
+    background-color: #f7f4ef;
+    border: 1px dashed #c8c0b4;
+    border-radius: 0.75rem;
+    color: #6c757d;
+    margin: 0;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    .dashboard-cabecalho {
+        border-radius: 1rem;
+    }
+}
